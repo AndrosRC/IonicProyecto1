@@ -1,0 +1,21 @@
+.settings-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .settings-group {
+    width: 100%;
+    max-width: 400px; /* Limita el ancho para que no se vea demasiado extendido */
+  }
+  
+  ion-item {
+    justify-content: center;
+  }
+  
+  ion-button {
+    margin-top: 20px;
+  }
+  

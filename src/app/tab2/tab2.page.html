@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Menú Principal
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,73 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+      <ion-title size="large">Menú Principal</ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-grid [fixed]="true">
+    <ion-row>
+      <ion-col>
+        <h1>Bienvenido a tu Gestor de Tareas Diarias!</h1>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <div class="datetime-container">
+          <ion-datetime></ion-datetime>
+        </div>
+    </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col><h2>Lista de Tareas Actuales</h2></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <img alt="Logo Ionic" src="https://imgs.search.brave.com/qXafYAlWXyFsAJsohTmVL0jfH5wLvEyqR7UplubTLR8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMC53/cC5jb20vZnVzaW9u/YS5jbC93cC1jb250/ZW50L3VwbG9hZHMv/SW9uaWMtRnJhbWV3/b3JrXy1MYS1lbGVj/Y2lvbi1lc3RyYXRl/Z2ljYS1wYXJhLWFw/bGljYWNpb25lcy1t/b3ZpbGVzLWhpYnJp/ZGFzLndlYnA_Zml0/PTEwMDAsNjQwJnNz/bD0x" />
+          <ion-card-header>
+            <ion-card-title>Terminar el Proyecto</ion-card-title>
+            <ion-card-subtitle>Terminar el proyecto de Ionic para el dia 28/01/25</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Es necesario usar tabs con iconos personalizados, y añadir contenido usando la documentación de Ionic
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <img alt="Perro" src="https://imgs.search.brave.com/o8mIZGxu-5m_5Bn_vIKPHaUYO2mI8_m2F9ULV_JM0ns/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4w/LmV4cGVydG9hbmlt/YWwuY29tL2VzL3Bv/c3RzLzEvOC84L2Nv/bnNlY3VlbmNpYXNf/ZGVfbm9fc2FjYXJf/YV9wYXNlYXJfYWxf/cGVycm9fMjQ4ODFf/NjAwLmpwZw" />
+          <ion-card-header>
+            <ion-card-title>Pasear al Perro</ion-card-title>
+            <ion-card-subtitle>Es necesario pasear al Perro</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+            No olvides pasear al perro, se enoja si no lo paseas
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <img alt="Ropa" src="https://imgs.search.brave.com/3K2RZpuXsODt2vQpTSIjLtSj051qViIydB45q-ODvvA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5ncS5jb20ubXgv/cGhvdG9zLzYyYzRj/ZGI4ZGU5ZTE3NjE0/YmQ4OTU4MS8xOjEv/cGFzcy9jYWRhLWN1/YW5kby1sYXZhci1w/cmVuZGFzLWNlc3Rv/LWRlLXJvcGEtc3Vj/aWEuanBn" />
+          <ion-card-header>
+            <ion-card-title>Lavar la Ropa</ion-card-title>
+            <ion-card-subtitle>Tienes que lavar la Ropa antes del Viernes</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Si no lavas la ropa antes del viernes, no vas a tener ropa limpia
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+  
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+
 </ion-content>
