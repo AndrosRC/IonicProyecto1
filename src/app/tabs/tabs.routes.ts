@@ -1,5 +1,6 @@
 import { Routes } from '@angular/router';
 import { TabsPage } from './tabs.page';
+import { LoginPage } from '../login/login.page';
 
 export const routes: Routes = [
   {
@@ -20,6 +21,11 @@ export const routes: Routes = [
         path: 'tab3',
         loadComponent: () =>
           import('../tab3/tab3.page').then((m) => m.Tab3Page),
+      },
+      {
+        path: 'login',
+        loadComponent: () =>
+          import('../login/login.page').then((m) => m.LoginPage),
       },
       {
         path: '',

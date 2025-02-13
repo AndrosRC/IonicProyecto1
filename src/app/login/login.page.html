@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding login-content" scroll-y="false">
+  <div class="login-container">
+    <ion-card>
+      <img alt="LoginImagen" src="https://imgs.search.brave.com/PmO7MUygFAUbOADWILgqkrfoVXgN2LN22vmB3LeOuZ8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9hc3Nl/dHMuc3RpY2twbmcu/Y29tL3RodW1icy81/ODVlNGJmM2NiMTFi/MjI3NDkxYzMzOWEu/cG5n" class="loginImagen" />
+      
+      <ion-card-header>
+        <ion-card-title class="title-centered">Inicio de Sesión</ion-card-title>
+      </ion-card-header>
+      
+      <ion-card-content>
+        <form>
+          <ion-item>
+            <ion-label position="floating">Correo Electrónico</ion-label>
+            <ion-input type="email" required></ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label position="floating">Contraseña</ion-label>
+            <ion-input type="password" required></ion-input>
+          </ion-item>
+          <div class="button-container">
+            <ion-button expand="block" type="submit">Iniciar Sesión</ion-button>
+          </div>
+        </form>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>
